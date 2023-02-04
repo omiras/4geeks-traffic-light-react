@@ -1,0 +1,22 @@
+.trafficLight {
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+  }
+  .trafficLight span {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: gray;
+  }
+
+  .shine {
+    box-shadow: 0 0 6px 6px white;
+
+  }
